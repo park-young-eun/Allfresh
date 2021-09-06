@@ -1,0 +1,107 @@
+section{
+    margin-bottom: 100px;
+}
+
+/* best */
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+p{
+    text-align: center;
+    font-size: 13px;
+    line-height: 30px;
+    margin: 30px 0 100px 0;
+}
+.best{
+    width: 1130px;
+    margin: 0 auto;
+}
+.best>div{
+    width: 100%;
+    float: left;
+}
+.best ul li{
+    float: left;
+}
+
+/* .best_top */
+.best .best_top ul li{
+    width: 360px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+    position: relative;
+}
+.best .best_top ul li:last-child{
+    margin-right: 0;
+}
+
+.best .best_title{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 99;
+}
+.best .best_img{
+    position: relative;
+    z-index: 98;
+}
+
+/* span / 하트기호 */
+.best .best_title>span{
+    float: right;
+    font-size: 25px;
+    padding: 5px;
+    font-weight: 900;
+    color: #aaa;
+}
+.best .bt1>span{
+    color: #111;
+}
+.best .best_title>span:hover{
+    color: red;
+}
+.best .best_list .best_title>span{
+    font-size: 20px;
+}
+
+
+/* .best_list */
+.best .best_list ul li{
+    width: 265px;
+    margin-right: 20px;
+    position: relative;
+}
+.best .best_list ul li:nth-child(4n){
+    margin-right: 0;
+}
+.best .best_list ul li:nth-child(n+5):nth-child(-n+8){
+    margin-top: 30px;
+}
+.best_list .best_txt{
+    text-align: center;
+}
+.best_list .best_txt b{
+    font-size: 13px;
+    display: block;
+    margin: 20px 0 10px 0;
+}
+.best_list .best_txt i{
+    display: block;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.best_list .best_txt del{
+    display: block;
+    font-size: 13px;
+    color: #aaa;
+}
+.best_list .best_txt strong span{
+    font-size: 13px;
+    margin-right: 5px;
+    color: red;
+}
+.best_list .best_txt span{
+    color: #999;
+    font-size: 11px;
+}
